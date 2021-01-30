@@ -7,11 +7,11 @@
 }
 body{
     font-family: 'Roboto', sans-serif;
-    background:url("images/bg.png");
+    /* background:url("images/bg.png");
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: scroll;
-    background-size: cover;
+    background-size: cover; */
 }
 
 nav{
@@ -74,13 +74,6 @@ nav ul li a:hover, a.active{
     cursor: pointer;
 }
 
-/* .plus-btn{
-    color: #3352F2;
-    border: none;
-    font-size: 30px;
-} */
-
-
 .booking-form  .calculations{
     margin: 10px 0;
 }
@@ -124,8 +117,43 @@ nav ul li a:hover, a.active{
     color: #fff;
     font-weight: 500;
     background-color:  #3352F2;
+    cursor: pointer;
 }
 .amount{
     display: flex;
     justify-content: space-between;
+}
+
+/* Custom added */
+#section {
+    background:url("images/bg.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    background-size: cover;
+}
+#conform-order{
+	display: none;
+	padding: 100px 100px;
+	
+}
+.custom-class {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 80px 40px;
+    text-align: center;
+    font-family: arial;
+    line-height: 2.2em;
+    box-shadow: 1px 2px 25px #cfd7d5;
+    color: #585858;
+    width: 50%;
+    margin: auto;
+}
+.icon {
+    font-size: 80px;
+    color: #00ffb8d9;
+}
+.custom-class h1 {
+    font-size: 35px;
+    margin-top: 20px;
 }
